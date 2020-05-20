@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="Css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Css/STYLE.CSS">
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script>
+            function limpar(){
+                limpar(display);
+               
+            }
+
+            
+            function calcular(){
+
+            }
+        
+            function escrever(){
+                button=onclick.value
+                document.getElementById("display").value=valor
+
+            }
+
+
+            function somar(){
+
+            }
+            
+        </script>
+        
+    </head>
+
+    <body>
+        
+        <p><b>O que você deseja somar?</b></p>
+        <input type="text"/>  
+        <button type="button">Limpar</button>
+        <br> <br>
+
+        <button id="botao" onclick="escrever(7)">7</button> 
+        <button id="botao" onclick="escrever(8)">8</button> 
+        <button id="botao" onclick="escrever(9)">9</button> <br>
+        <button id="botao" onclick="escrever(4)">4</button> 
+        <button id="botao" onclick="escrever(5)">5</button>
+        <button id="botao" onclick="escrever(6)">6</button> <br>        
+        <button id="botao" onclick="escrever(1)">1</button>         
+        <button id="botao" onclick="escrever(2)">2</button> 
+        <button id="botao" onclick="escrever(3)">3</button> <br>        
+        <button id="botao" onclick="escrever(0)">0</button>
+        <button id="botao" onclick="calcular('+')">+</button>  
+        <button id="botao" onclick="somar('=')">=</button> 
+
+      
+    </body>
+
+</html>
+
